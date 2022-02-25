@@ -198,9 +198,9 @@ a:link{
 a:visited{
   color: white;
 }
-@media only screen and (min-width: 720px) and (max-width: 1200px) {
+@media only screen and (min-width: 393px) and (max-width: 1200px) {
 body{
-  font-size: 1.7em;
+  font-size: 1em;
 }
 .App{
   width: 90vw;
@@ -222,8 +222,8 @@ input[type="text"]{
   
 }
 .userCard{
-  width: 76vw;
-  padding: 20px 0 0 100px;
+  width: 73vw;
+  padding: 20px 0 0 70px;
   height: 60vh;
 }
 .cordonnes{
@@ -237,8 +237,8 @@ input[type="text"]{
   font-size: 1em;
 }
 .img{
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
 .follow-repo{
   font-size: 0.7em;
