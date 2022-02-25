@@ -1,13 +1,246 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  transition: all .1s;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #141c2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.App{
+  height: 70vh;
+  width: 60vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main{
+  display: flex;
+  height: 82vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.theme button{
+  padding-top: 5px;
+  background: transparent;
+  border: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 1em; 
+  font-weight: 700;
+  color: white;
+}
+.theme button:hover{
+  cursor: pointer;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.header-title{
+  color: white;
+  font-weight: bold;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.7em; 
+}
+.searchDiv{
+  display: flex;
+}
+.SearchBar{
+  width: 60vw;
+  height: 8vh;
+  background-color: #1e2a47;
+  border-radius: 10px;
+  border: none;
+  transition: all .3s;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+
+}
+.SearchBar:focus{
+  outline-color: #0079ff;
+  outline-width: 1px;
+  outline-style: solid;
+}
+input[type="text"]{
+  padding-left: 70px;
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+}
+.searchIcon{
+  position: absolute;
+  margin: 10px;
+  font-size: 1.8em;
+  color: #0079ff;
+}
+.searchButton{
+  padding: 10px;
+  position: absolute;
+  margin-left: 52.5vw;
+  margin-top: 0.8vh;
+  width: 7vw;
+  background-color: #0079ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  transition: all .3s;
+}
+
+.searchButton:hover{
+  background-color: #419aff;
+}
+.searchButton:active{
+  transform: scale(0.96);
+}
+.userCard{
+  background-color: #1e2a47;
+  width: 55.5vw;
+  height: 70vh;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 0 60px;
+  box-shadow: 0px 16px 30px -10px rgba(0,0,0,0.2);
+
+}
+.img{
+  border-radius: 100px;
+  
+}
+.personal-info{
+  display: flex;
+  width: 55vw;
+  height: 30vh;
+  justify-content: space-around;
+  font-family: "Space Mono", monospace;
+
+}
+.cordonnes{
+  
+  width: 43vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.name{
+  color: white;
+  margin: 10px 0 10px 0;
+  font-weight: bold;
+}
+.userName{
+  color: #0079ff;
+
+}
+.bio{
+  margin-top: 10px;
+  color:gray;
+}
+.joined{
+  margin-top: 10px;
+  width: 15vw;
+  font-size: 1em;
+  color: gray;
+}
+.follow-repo{
+  width: 38vw;
+  height: 10vh;
+  margin-left: 11vw;
+  background-color: #141c2f;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  padding: 20px;
+  padding-left: 40px;
+  
+}
+.fr-child{
+  font-family: "Space Mono", monospace;
+  color: white;
+}
+.fr-child:nth-child(n+4){
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.additional-info{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin: 4vh 0 0 12vw;
+  
+}
+.ai-child{
+  margin-bottom: 15px;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+input[type="text"]{
+  color: white;
+}
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+body{
+  font-size: 0.7em;
+}
+.App{
+  width: 86vw;
+}
+.SearchBar{
+  width: 86vw;
+}
+.searchButton{
+  margin-left: 65vw;
+  width: 20vw;
+  padding: 8px;
+  margin-top: 0.8vh;
+  font-size: 1em;
+}
+input[type="text"]{
+  font-size: 1em;
+  padding-left: 12vw;
+  
+}
+.userCard{
+  width: 67vw;
+  padding: 20px 0 0 70px;
+}
+.cordonnes{
+  padding-top: 10px;
+  margin-left: 20px;
+  flex-direction: column;
+  
+  width: 65vw;
+}
+.name{
+  width: 50vw;
+  font-size: 1em;
+}
+.img{
+  height: 100px;
+  width: 100px;
+}
+.follow-repo{
+  font-size: 0.7em;
+  padding-left: 40px;
+}
+.fr-child:nth-child(n+4){
+  font-size: 2em;
+  
+}
+
+
+  
 }
