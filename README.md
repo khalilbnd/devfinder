@@ -47,6 +47,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@UnTalPeluca](https://www.frontendmentor.io/profile/khalil227)
+- Frontend Mentor - [@khalil227](https://www.frontendmentor.io/profile/khalil227)
 - Instagram - [@khalilbnd.exe](https://www.instagram.com/khalilbnd.exe/)
 - LinkedIn - [Mohamed El Khalil Beneddra](https://www.linkedin.com/in/mohamed-el-khalil-beneddra-1bb8931b4/)
