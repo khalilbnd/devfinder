@@ -198,16 +198,16 @@ a:link{
 a:visited{
   color: white;
 }
-@media only screen and (min-width: 235px) and (max-width: 768px) {
+@media only screen and (min-width: 720px) and (max-width: 1200px) {
 body{
-  font-size: 0.5em;
+  font-size: 1.7em;
 }
 .App{
   width: 90vw;
 }
 .SearchBar{
   width: 86vw;
-  height: 6vh;
+  height: 5vh;
 }
 .searchButton{
   margin-left: 69vw;
@@ -222,8 +222,9 @@ input[type="text"]{
   
 }
 .userCard{
-  width: 72vw;
-  padding: 20px 0 0 40px;
+  width: 76vw;
+  padding: 20px 0 0 100px;
+  height: 60vh;
 }
 .cordonnes{
   margin-left: 20px;
@@ -236,12 +237,12 @@ input[type="text"]{
   font-size: 1em;
 }
 .img{
-  height: 50px;
-  width: 50px;
+  height: 150px;
+  width: 150px;
 }
 .follow-repo{
   font-size: 0.7em;
-  padding-left: 0px;
+  padding-left: 20px;
   height: 8vh;
   width: 51.5vw;
 }
@@ -252,6 +253,9 @@ input[type="text"]{
 .fr-child:nth-child(n+4){
   font-size: 2em;
   
+}
+.ai-child{
+  font-size: 0.6em;
 }
 
 
