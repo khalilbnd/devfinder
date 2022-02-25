@@ -72,7 +72,7 @@ export default function UserCard() {
             setBlog("No available")
         }
         else if(blog != "") {
-            setBlog(blog);           
+            setBlog(`<a href="${blog}">Check it out</a>`);           
             $(".ai-child:nth-child(3)").css("opacity", "1");
 
         }
