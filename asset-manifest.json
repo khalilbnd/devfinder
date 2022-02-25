@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/devfinder/static/css/main.691face3.css",
+    "main.css": "/devfinder/static/css/main.fd04195d.css",
     "main.js": "/devfinder/static/js/main.36554706.js",
     "static/media/pic.jfif": "/devfinder/static/media/pic.ac49737f5d1138c733ca.jfif",
     "index.html": "/devfinder/index.html",
-    "main.691face3.css.map": "/devfinder/static/css/main.691face3.css.map",
+    "main.fd04195d.css.map": "/devfinder/static/css/main.fd04195d.css.map",
     "main.36554706.js.map": "/devfinder/static/js/main.36554706.js.map"
   },
   "entrypoints": [
-    "static/css/main.691face3.css",
+    "static/css/main.fd04195d.css",
     "static/js/main.36554706.js"
   ]
 }
