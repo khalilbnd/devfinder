@@ -72,7 +72,7 @@ export default function UserCard() {
             setBlog("No available")
         }
         else if(blog != "") {
-            setBlog(`<a href="${blog}">Check it out</a>`);           
+            setBlog(blog);           
             $(".ai-child:nth-child(3)").css("opacity", "1");
 
         }
@@ -174,7 +174,7 @@ export default function UserCard() {
                     <FaTwitter /> {twitter_username}
                 </div>
                 <div className="ai-child">
-                    <BiLink /> {blog}
+                    <BiLink /> <a href={blog == "No available" ? "#" : blog}>{blog != "No available" ? "Check it out" : blog}</a>
                 </div>
                 <div className="ai-child">
                     <BiBuildings /> {company}

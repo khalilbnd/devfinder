@@ -19,6 +19,7 @@ function Header(){
         let primaryColor7 = $(".fr-child");
         let primaryColor8 = $(".ai-child");
         let primaryColor9 = $("input[type=\"text\"]");
+        let primaryColor10 = $("a:link");
 
         
 
@@ -33,6 +34,7 @@ function Header(){
             primaryColor7.css("color", "#2B3442");
             primaryColor8.css("color", "#2B3442");
             primaryColor9.css("color", "#2B3442");
+            primaryColor10.css("color", "#2B3442");
 
             setIcon(faMoon);
             setThemeName("Dark");
@@ -49,6 +51,7 @@ function Header(){
             primaryColor7.css("color", "white");
             primaryColor8.css("color", "white");
             primaryColor9.css("color", "white");
+            primaryColor10.css("color", "white");
 
 
             setIcon(faSun);
