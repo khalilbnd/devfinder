@@ -198,34 +198,34 @@ a:link{
 a:visited{
   color: white;
 }
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 235px) and (max-width: 768px) {
 body{
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 .App{
-  width: 86vw;
+  width: 90vw;
 }
 .SearchBar{
   width: 86vw;
+  height: 6vh;
 }
 .searchButton{
-  margin-left: 65vw;
+  margin-left: 69vw;
   width: 20vw;
-  padding: 8px;
-  margin-top: 0.8vh;
+  padding: 6px;
+  margin-top: 0.6vh;
   font-size: 1em;
 }
 input[type="text"]{
-  font-size: 1em;
+  font-size: 0.8em;
   padding-left: 12vw;
   
 }
 .userCard{
-  width: 67vw;
-  padding: 20px 0 0 70px;
+  width: 72vw;
+  padding: 20px 0 0 40px;
 }
 .cordonnes{
-  padding-top: 10px;
   margin-left: 20px;
   flex-direction: column;
   
@@ -236,12 +236,18 @@ input[type="text"]{
   font-size: 1em;
 }
 .img{
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 .follow-repo{
   font-size: 0.7em;
-  padding-left: 40px;
+  padding-left: 0px;
+  height: 8vh;
+  width: 51.5vw;
+}
+.fr-child{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .fr-child:nth-child(n+4){
   font-size: 2em;
